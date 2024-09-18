@@ -16,22 +16,22 @@ const Links = () => {
         },
         {
             path : '/about',
-            element : 'About'
+            element : 'About Us'
         },
         {
-            path : '/blog',
-            element : 'Blog'
+            path : '/login',
+            element : 'Login'
         }
     ]
-    const session = true;
-    const isAdmin = true;
+    // const session = true;
+    // const isAdmin = true;
 
     return (
         <div className='flex lg:flex-row flex-col'>
             {
                 links.map(link=><NavLink key={link.element} className='pr-16' link={link}></NavLink>)
             }
-            {
+            {/* {
                 session?
                 <>
                 {isAdmin && 
@@ -47,7 +47,7 @@ const Links = () => {
                 <NavLink className='pr-16' link={{path : '/login',
                     element : 'Login'}}></NavLink>
                 
-            }
+            } */}
             
         </div>
     );
