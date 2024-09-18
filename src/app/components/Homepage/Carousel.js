@@ -80,19 +80,6 @@ const Carousel = () => {
                 <p className='lg:text-[38px] md:text-3xl text-lg  font-bold inline-block leading-snug rounded-lg'>"The accuracy of the transcryptions is impressive, and the ability to search through meetings"</p>
             </div>
 
-            {/* <div className='md:absolute bg-white p-4 shadow-lg lg:-mt-48 md:-mt-36 lg:ml-[450px] md:ml-[280px]  rounded-lg z-10 max-w-2xl'>
-                <p className='lg:text-[38px] md:text[32px] font-bold bg-white inline-block leading-snug rounded-lg p-4'>
-                    "The accuracy of the transcriptions is impressive, and the ability to search through meetings"
-                </p>
-            </div> */}
-
-            {/* <div className='md:absolute bg-white p-4 shadow-lg -mt-48 lg:ml-[450px] md:ml-[200px] mr-5 rounded-lg z-10 max-w-2xl'
-                // style={{ clipPath: 'polygon(0 10%, 15% 0%, 85% 0%, 100% 10%, 100% 100%, 0% 100%)' }}
-                >
-                <p className='lg:text-[38px] md:text-[34px] text-[20px] font-bold lg:inline-block lg:leading-snug rounded-lg p-4'>
-                    "The accuracy of the transcriptions is impressive, and the ability to search through meetings"
-                </p>
-            </div> */}
 
             {/* Control Buttons */}
             <div className="w-1/2 relative flex gap-3 md:justify-start md:items-start pl-5 lg:mt-96 md:mt-80 mt-40">
