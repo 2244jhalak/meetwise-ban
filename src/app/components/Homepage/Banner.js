@@ -23,7 +23,7 @@ const Banner = () => {
             </button>
           </div>
           <div className="flex justify-center md:justify-start gap-8">
-            <div className="text-4xl font-semibold">
+            <div className="lg:text-4xl font-semibold">
               10K+{" "}
               <span className="block text-sm font-medium">
                 Active users per month
