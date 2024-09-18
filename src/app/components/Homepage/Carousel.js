@@ -18,7 +18,7 @@ const Carousel = () => {
     };
 
     return (
-        <div className="relative p-14 bg-blue-50 z-10 flex justify-between items-center w-full">
+        <div className="relative md:p-14 p-5 bg-blue-50 z-10 flex justify-between items-center w-full">
             {/* Image Section */}
             <div className="relative w-1/2">
                 <Slider ref={sliderRef} {...settings}>
@@ -76,17 +76,28 @@ const Carousel = () => {
                 </Slider>
             </div>
 
-
-            <div className='absolute bg-white p-4 shadow-lg -mt-48 ml-[450px] rounded-lg z-10 max-w-2xl'>
-                <p className='text-[38px] font-bold bg-white inline-block leading-snug rounded-lg p-4'>
-                    "The accuracy of the transcriptions is impressive, and the ability to search through meetings"
-                </p>
+            <div className='absolute bg-white p-4 shadow-lg lg:-mt-48 md:-mt-36 lg:ml-[450px] md:ml-[280px] ml-56 space-y-2 rounded-lg mr-5 md:max-w-2xl max-w-36'>
+                <p className='lg:text-[38px] md:text-3xl text-lg  font-bold inline-block leading-snug rounded-lg'>"The accuracy of the transcryptions is impressive, and the ability to search through meetings"</p>
             </div>
 
+            {/* <div className='md:absolute bg-white p-4 shadow-lg lg:-mt-48 md:-mt-36 lg:ml-[450px] md:ml-[280px]  rounded-lg z-10 max-w-2xl'>
+                <p className='lg:text-[38px] md:text[32px] font-bold bg-white inline-block leading-snug rounded-lg p-4'>
+                    "The accuracy of the transcriptions is impressive, and the ability to search through meetings"
+                </p>
+            </div> */}
+
+            {/* <div className='md:absolute bg-white p-4 shadow-lg -mt-48 lg:ml-[450px] md:ml-[200px] mr-5 rounded-lg z-10 max-w-2xl'
+                // style={{ clipPath: 'polygon(0 10%, 15% 0%, 85% 0%, 100% 10%, 100% 100%, 0% 100%)' }}
+                >
+                <p className='lg:text-[38px] md:text-[34px] text-[20px] font-bold lg:inline-block lg:leading-snug rounded-lg p-4'>
+                    "The accuracy of the transcriptions is impressive, and the ability to search through meetings"
+                </p>
+            </div> */}
+
             {/* Control Buttons */}
-            <div className="w-1/2 relative md:flex gap-3 md:justify-start md:items-start pl-5 lg:mt-96 md:mt-80 mt-40">
+            <div className="w-1/2 relative flex gap-3 md:justify-start md:items-start pl-5 lg:mt-96 md:mt-80 mt-40">
                 <button
-                    className="bg-gray-800 text-white p-2 px-4 mb-4 rounded-full shadow-lg hover:bg-gray-600 transition-colors duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-400"
+                    className="bg-gray-800 text-white p-2 px-4 rounded-full shadow-lg hover:bg-gray-600 transition-colors duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-400"
                     onClick={() => sliderRef.current.slickPrev()} // Go to previous slide
                 >
                     <span className="text-2xl">&lt;</span> {/* Stylish left arrow (<) */}
