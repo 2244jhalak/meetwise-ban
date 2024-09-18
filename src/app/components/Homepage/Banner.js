@@ -6,19 +6,19 @@ const Banner = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
         {/* Left Side */}
         <div className="md:w-3/5 w-full text-center md:text-left p-5">
-          <h1 className="text-4xl font-bold mb-4">
+          <h1 className="text-4xl font-bold  text-[#2A106B] mb-4">
             Elevate Your Meetings with AI-powered Recording
           </h1>
-          <p className="text-lg text-gray-700 mb-6">
+          <p className="text-lg text-[#5E5961] mb-6">
             With our advanced artificial intelligence technology, your meetings
             are not just recorded – they're transformed into valuable insights
             and productivity boosters.
           </p>
           <div className="flex justify-center md:justify-start gap-4 mb-6">
-            <button className="bg-purple-600 text-white px-6 py-3 rounded-md hover:bg-purple-700">
+            <button className="bg-[#331181] text-white px-6 py-3 rounded-md hover:bg-purple-700">
               Start for Free
             </button>
-            <button className="bg-transparent border border-purple-600 text-purple-600 px-6 py-3 rounded-md hover:bg-purple-600 hover:text-white">
+            <button className="bg-[#FFFFFF] border border-purple-600 text-[#827B85] px-6 py-3 rounded-md hover:bg-purple-600 hover:text-white">
               Watch Demo
             </button>
           </div>
