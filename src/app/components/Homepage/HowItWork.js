@@ -62,7 +62,7 @@ const HowItWork = () => {
                     Create a Scheduling Link
                     </a>
                     <p className="mt-2 text-sm text-gray-600 dark:text-gray-400 font-raleway">
-                    Connect your calendar and Calendly will help you create scheduling links and booking pages based on your availability. 
+                    Connect your calendar and Calendly will help you create scheduling links and booking pages based on your availability. .
                     </p>
                   </div>
                   <div className="mt-4">
