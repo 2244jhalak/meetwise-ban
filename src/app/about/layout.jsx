@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Ready = () => {
+const layout = ({children}) => {
     return (
         <div>
-            <h2>Always</h2>
+            {children}
         </div>
     );
 };
 
-export default Ready;
+export default layout;
